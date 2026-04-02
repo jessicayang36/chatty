@@ -1,0 +1,65 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Android
+android/local.properties
+android/app/src/main/res/values/google-services.json
+*.keystore
+*.jks
+android/app/google-services.json
+
+# iOS/macOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Runner/GoogleService-Info.plist
+macos/Runner/GoogleService-Info.plist
+
+# Firebase
+lib/firebase_options.dart
+.firebase/
+firepit-*.log
+firebase-debug.log
+ui-debug.log
+
+# Firebase Functions
+functions/node_modules/
+functions/lib/
+functions/.runtimeconfig.json
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Windows
+/windows/flutter/ephemeral/
+/windows/flutter/generated_config.cmake
+
+# Linux
+/linux/flutter/ephemeral/
+
+# Web
+/web/flutter_service_worker.js
+lib/generated_plugin_registrant.dart
+
+# Sensitive environment variables
+.env*
+
+#other
+how.txt
+notes.txt
+lib/features/threads/structure.txt
